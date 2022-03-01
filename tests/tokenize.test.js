@@ -40,7 +40,7 @@ describe('testing verify request:', () => {
         veryBasicRequestParams.number = '4111111111111111';
         const response = await new TokenizeCall(veryBasicRequestParams).execute();
         expect(response.cardToken).not.toEqual(null);
-        expect(response.merchantId).toEqual('168678');
+        expect(response.merchantId).toEqual('167349');
         expect(response.result).toEqual('success');
     });
 

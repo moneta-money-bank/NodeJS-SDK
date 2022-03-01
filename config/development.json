@@ -1,7 +1,7 @@
 {
-  "sessionTokenRequestUrl": "https://apiuat.test.boipapaymentgateway.com/token",
-  "paymentOperationActionUrl": "https://apiuat.test.boipapaymentgateway.com/payments",
-  "cashierUrl": "https://cashierui-apiuat.test.boipapaymentgateway.com/ui/cashier",
-  "javaScriptUrl": "https://cashierui-apiuat.test.boipapaymentgateway.com/js/api.js",
-  "mobileCashierUrl": "https://cashierui-apiuat.test.boipapaymentgateway.com/react-frontend/index.html"
+  "sessionTokenRequestUrl": "https://apiuat.test.monetaplatebnisluzby.cz/token",
+  "paymentOperationActionUrl": "https://apiuat.test.monetaplatebnisluzby.cz/payments",
+  "cashierUrl": "https://cashierui-apiuat.test.monetaplatebnisluzby.cz/ui/cashier",
+  "javaScriptUrl": "https://cashierui-apiuat.test.monetaplatebnisluzby.cz/js/api.js",
+  "mobileCashierUrl": "https://cashierui-apiuat.test.monetaplatebnisluzby.cz/react-frontend/index.html"
 }

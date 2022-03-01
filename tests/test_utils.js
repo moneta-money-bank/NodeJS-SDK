@@ -3,8 +3,8 @@ import RequiredParamException from "../src/exception/RequiredParamException";
 import ServerSideException from "../src/exception/ServerSideException";
 
 export const tokenizeRequestParams = {
-  merchantId: 168678,
-  password: '12345',
+  merchantId: 167349,
+  password: '56789',
   allowOriginUrl: 'http://localhost',
   merchantNotificationUrl: 'http://localhost/notify',
   number: '4111111111111111',
@@ -14,15 +14,15 @@ export const tokenizeRequestParams = {
 }
 
 export const veryBasicRequestParams = {
-  merchantId: 168678,
-  password: '12345',
+  merchantId: 167349,
+  password: '56789',
   allowOriginUrl: 'http://localhost',
   merchantNotificationUrl: 'http://localhost/notify'
 }
 
 export const basicMerchantRequestParams = {
   ...veryBasicRequestParams,
-  country: 'IE',
+  country: 'CZ',
   currency: 'EUR',
   channel: 'ECOM'
 }
@@ -63,7 +63,7 @@ export const missingPaymentSolutionId = (response) => {
 
 export const setBasicPaymentParams = (requestParams, cardToken, customerId) => {
   requestParams.amount = 10;
-  requestParams.country = 'IE';
+  requestParams.country = 'CZ';
   requestParams.currency = 'EUR';
   requestParams.channel = 'ECOM';
   requestParams.customerId = customerId;
@@ -86,8 +86,8 @@ export const testSuccessVerification = (response) => {
   expect(response.result).toEqual('success');
   expect(response.status).toEqual('VERIFIED');
   expect(response.paymentSolutionId).toEqual('500');
-  expect(response.brandId).toEqual('1686780000');
+  expect(response.brandId).toEqual('1673490000');
   expect(response.currency).toEqual('EUR');
   expect(response.amount).toEqual('0');
-  expect(response.merchantId).toEqual('168678');
+  expect(response.merchantId).toEqual('167349');
 }

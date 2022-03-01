@@ -1,7 +1,7 @@
 {
-  "sessionTokenRequestUrl": "https://api.boipapaymentgateway.com/token",
-  "paymentOperationActionUrl": "https://api.boipapaymentgateway.com/payments",
-  "cashierUrl": "https://cashierui-api.boipapaymentgateway.com/ui/cashier",
-  "javaScriptUrl": "https://cashierui-api.boipapaymentgateway.com/js/api.js",
-  "mobileCashierUrl": "https://cashierui-api.boipapaymentgateway.com/react-frontend/index.html"
+  "sessionTokenRequestUrl": "https://api.monetaplatebnisluzby.cz/token",
+  "paymentOperationActionUrl": "https://api.monetaplatebnisluzby.cz/payments",
+  "cashierUrl": "https://cashierui-api.monetaplatebnisluzby.cz/ui/cashier",
+  "javaScriptUrl": "https://cashierui-api.monetaplatebnisluzby.cz/js/api.js",
+  "mobileCashierUrl": "https://cashierui-api.monetaplatebnisluzby.cz/react-frontend/index.html"
 }

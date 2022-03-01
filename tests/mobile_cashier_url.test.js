@@ -33,8 +33,8 @@ describe('testing getting mobile sdk url request', () => {
     requestParams.action = ActionType.TOKENIZE;
     const response = await new MobileCashierURLCall(requestParams).execute();
     expect(response.result).toEqual('success');
-    expect(response.country).toEqual('IE');
-    expect(response.merchantId).toEqual('168678');
+    expect(response.country).toEqual('CZ');
+    expect(response.merchantId).toEqual('167349');
     expect(response.cardToken).not.toEqual(null);
     expect(response.mobileCashierUrl).toEqual('https://cashierui-apiqa.test.myriadpayments.com/react-frontend/index.html');
   });
