@@ -1,0 +1,7 @@
+{
+  "sessionTokenRequestUrl": "https://api.boipapaymentgateway.com/token",
+  "paymentOperationActionUrl": "https://api.boipapaymentgateway.com/payments",
+  "cashierUrl": "https://cashierui-api.boipapaymentgateway.com/ui/cashier",
+  "javaScriptUrl": "https://cashierui-api.boipapaymentgateway.com/js/api.js",
+  "mobileCashierUrl": "https://cashierui-api.boipapaymentgateway.com/react-frontend/index.html"
+}
