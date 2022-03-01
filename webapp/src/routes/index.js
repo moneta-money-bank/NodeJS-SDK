@@ -15,9 +15,9 @@ import querystring from 'querystring';
 const router = express.Router();
 
 const merchant = {
-  'merchantId': '',
-  'password': '',
-  'country': 'IE',
+  'merchantId': '167349',
+  'password': '56789',
+  'country': 'CZ',
   'number': '4111111111111111',
   'currency': 'EUR',
 };
